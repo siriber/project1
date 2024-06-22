@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Side Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <span class="open-slide">
+            <a href="# " onclick="openSlideMenu()">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 283.426 283.426" xml:space="preserve" width="24px" height="24px" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <rect x="0" y="40.84" style="fill:white;" width="283.426" height="47.735"></rect> <rect x="0" y="117.282" style="fill:white;" width="283.426" height="47.735"></rect> <rect x="0" y="194.851" style="fill:white;" width="283.426" height="47.735"></rect> </g> </g></svg>
+            </a>
+        </span>
+
+        <ul class="navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div id="main">
+        <h1>Responsive Side  Menu</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente culpa doloremque consequatur, temporibus modi esse impedit praesentium fugiat obcaecati cupiditate, rem molestiae libero voluptates dolorem placeat saepe dignissimos facilis aliquam, repellat dolores soluta maxime quis id necessitatibus. Dolorum, magnam et. Facere quisquam saepe dignissimos ad aperiam illum consequatur magnam, enim quam in debitis ducimus sit quasi hic voluptatibus dolores amet accusantium vel repellat rerum voluptatem. Soluta nulla rerum incidunt nihil nemo magni saepe ad inventore, voluptatum eligendi eos at eum iure ipsam. Maiores temporibus, ut amet sint sunt earum, distinctio aut eligendi cum ea fugit hic? Nesciunt, corrupti. Deserunt, autem natus veniam debitis, hic praesentium, est ab quidem harum fugiat vitae tenetur soluta mollitia enim animi officiis suscipit tempora consequatur nostrum voluptates optio molestiae. Natus cum reiciendis alias officiis pariatur facere aliquam ut, ratione necessitatibus consectetur fugiat unde exercitationem nulla consequatur aspernatur doloribus architecto ad, delectus eius. Vel sunt quasi laborum animi odio aperiam, similique earum suscipit excepturi doloribus delectus nemo repellat repudiandae, voluptas dicta officiis saepe in expedita quisquam assumenda consectetur id fugiat dolores aut. Libero in, soluta sunt commodi deserunt vel ducimus tenetur ea aut officia dolorum rem error molestiae illum ut expedita laboriosam architecto excepturi nostrum hic laborum provident voluptatibus ratione. Neque eaque corporis ut deserunt placeat unde laudantium architecto, quod perspiciatis aut quaerat mollitia ipsam impedit voluptas ullam explicabo, quos culpa fugiat dolores dolore consequuntur? Placeat tempora deserunt libero nesciunt consequatur, dolore id quasi mollitia minima? Consequatur, tenetur minima alias sint quo vitae earum officia error maiores quibusdam autem nostrum ab vero. Sunt et in enim perferendis iure, quidem cumque adipisci sapiente officiis quasi, accusamus modi. Ad, omnis obcaecati nesciunt, ipsa animi dolorem facere minus in molestias voluptate reiciendis ratione eum excepturi! Ullam voluptatem veniam quibusdam sed autem culpa tenetur doloremque recusandae provident, adipisci, nobis cum consequuntur. Voluptate quos, eum in dolorem laborum porro voluptates odit ipsa corrupti tempore, officiis quibusdam sapiente ut deleniti sunt minima! Debitis error dicta odio facere minima placeat magni magnam perspiciatis itaque minus? Optio sequi magni dolores nulla velit nostrum aperiam porro natus tenetur autem dignissimos ipsam est, ratione nemo, in eligendi voluptatem necessitatibus consectetur dolor repudiandae atque eaque. Illum hic reprehenderit nesciunt similique architecto! Doloremque consequatur quia sapiente illum sint! Ratione praesentium esse aliquam excepturi eaque ea delectus, aperiam nobis laborum distinctio tempora maxime provident inventore cum, non repellendus incidunt dolor! Quas quia placeat eveniet explicabo consequatur eos aliquam in? Excepturi magni, nostrum perspiciatis amet officia cumque veritatis quas saepe rem eaque atque quis ea natus, optio porro assumenda corrupti enim commodi temporibus illo rerum eius, necessitatibus vel. Maxime, aut? Quam <!-- temporibus saepe deleniti ipsam sunt consequatur autem error laboriosam molestiae consectetur quasi deserunt dolorum nam omnis eum vitae, mollitia voluptatem, voluptatum dignissimos! Natus, nemo? Repudiandae odit quo, facere animi excepturi libero dolorem nulla dicta quod eaque harum nostrum quibusdam ad nihil blanditiis similique ipsam, dolore minima, placeat veniam! Tempore aperiam magni ducimus at hic veniam quibusdam repudiandae, eaque enim unde odit, minus ratione voluptatem nam autem. Maiores, iusto alias! -->
+    </div>
+
+    <script>
+        function openSlideMenu(){
+            document.getElementById('side-menu').style.width = '250px';
+            document.getElementById('main').style.marginLeft = '250px';
+        }  
+
+        function closeSlideMenu(){
+            document.getElementById('side-menu').style.width = '0';
+            document.getElementById('main').style.marginLeft = '0';
+        }  
+        
+    </script>
+</body>
+</html>
